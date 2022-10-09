@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Apple</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navbar" class="bg-dark">
+            <div class="logo">
+                <a img src="apple2.png" alt="logo"></a>
+            </div>
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
@@ -26,7 +30,7 @@
         <p><h3>Apple Inc.</h3> is an American multinational technology company that specializes in consumer electronics, software and online services headquartered in Cupertino, California, United States</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FT3ODSg1GFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br>
-        
+
         <audio controls="controls">
             <source src="audio.mp3"type="audio/mp3">
         </audio>
@@ -71,8 +75,10 @@
             <input type="checkbox"> Remember me
             </label>
             </div>
+            <textarea name="comment" cols="30" rows="6">
+            </textarea>
             <button type="submit" class="btn btn-default">Sign in</button>
-           </form
+        </form>
 
     </section>
     <footer>
