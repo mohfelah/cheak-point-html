@@ -1,0 +1,176 @@
+/*roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main style */
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+text-decoration: none;
+}
+/* utility classes */
+.bg-dark{
+    background-color:black;
+    color: aliceblue;
+}
+
+.bg-light{
+    background-color:whitesmoke;
+    color: black;
+}
+
+.bg-primary{
+    background-color: aqua;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.l-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+
+/* section : navbar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar .logo img{
+    width: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li a {
+    color: azure;
+    padding : 1rem;
+}
+
+#navbar ul li a:hover {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+/*section : home */
+#home{
+    background: black;
+    color: white;
+    background:url(./apple.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+/*section : about */
+#about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about .about-content div,
+#about .about-content img{
+    flex: 1;
+    flex-direction: row;
+}
+
+#about .about-content img{
+    width: 80%;
+    margin-left: 4rem;
+    border: 5px solid white; 
+}
+
+/*section : work */
+#work .work-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#work .work-content div,
+#work .work-content iframe{
+    flex: 1;
+    flex-direction :row;
+
+}
+
+#work .work-content iframe{
+    width: 100%;
+    border: 5px solid wheat;
+}
+
+/*section : contact*/
+#contact-us{
+    width: 420px;
+    height: 380px;
+    border-radius: 10px;
+    color: white;
+}
+
+#contact-us .name{
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#contact-us .name input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    justify-content:center;
+    border-radius: 0.5px;
+}
+
+#contact-us .ername{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-us .ername input{
+    width: 420px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 0.5px;
+}
+
+#contact-us .ercode{
+    display: flex;
+    flex-direction: column;
+}
+#contact-us .ercode input{
+    width: 420px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.textt{
+    margin-left: 40px;
+}
+
+#contact-us .btnn{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
